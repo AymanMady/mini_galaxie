@@ -1,0 +1,20 @@
+{
+  "name": "mini_galaxie",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Équipe 404",
+  "description": "Une simulation 3D interactive de système solaire développée par l'Équipe 404",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "postprocessing": "^7.0.0-alpha-1",
+    "three": "^0.160.0"
+  }
+}
